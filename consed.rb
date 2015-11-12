@@ -5,7 +5,7 @@ class Consed < Formula
   #doi "10.1101/gr.8.3.195" => "1998", "10.1093/bioinformatics/btt515" => "2013"
   #tag "bioinformatics"
 
-  version "28.0"
+  version "29.0"
   if OS.mac?
     url "http://bozeman.mbt.washington.edu/consed/distributions/#{version}/consed_mac.tar.gz"
     sha1 "58594afada7666b807f28217d7cf3ca76e53dcec"
