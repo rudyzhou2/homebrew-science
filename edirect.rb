@@ -3,7 +3,8 @@ class Edirect < Formula
   #tag "bioinformatics"
 
   url "ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/edirect.tar.gz"
-  sha1 "45578de2ae034960dd65a9fc0fbcb81ffdb0898c"
+  #sha1 "45578de2ae034960dd65a9fc0fbcb81ffdb0898c"
+  sha1 "200db7358425599ce68f885cd0c6f02e67519933"
   version "2.00"
 
   bottle do
