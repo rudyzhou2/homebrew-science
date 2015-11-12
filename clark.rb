@@ -3,9 +3,11 @@ class Clark < Formula
   # tag "bioinformatics"
   # doi "10.1186/s12864-015-1419-2"
 
-  url "http://clark.cs.ucr.edu/Download/CLARKV1.1.2.tar.gz"
-  sha256 "d97936a6c3c9215f659296a665c662de3f9406dcc957f8f58b313edd2c52f371"
-
+  #url "http://clark.cs.ucr.edu/Download/CLARKV1.1.2.tar.gz"
+  #sha256 "d97936a6c3c9215f659296a665c662de3f9406dcc957f8f58b313edd2c52f371"
+  url "http://clark.cs.ucr.edu/Download/CLARKV1.1.3.tar.gz"
+  sha256 "a79515ea39b8ddeba9b5e9fba272c04d04ec4659cc73be9abbea875019305b15"
+  
   bottle do
     cellar :any
     sha256 "a0f1ca3b707728175ca5c3774ca3c6ea55d4455f44ca36705b5fa2f60b11a53b" => :yosemite
