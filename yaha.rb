@@ -12,8 +12,8 @@ class Yaha < Formula
   # doi "10.1093/bioinformatics/bts456"
   # tag "bioinformatics"
 
-  url "https://github.com/GregoryFaust/yaha/releases/download/v0.1.83/yaha-0.1.83.tar.gz"
-  sha256 "76e052cd92630c6e9871412e37e46f18bfbbf7fc5dd2f345b3b9a73eb74939ef"
+  url "https://github.com/GregoryFaust/yaha/archive/v0.1.83.tar.gz"
+  #sha256 "76e052cd92630c6e9871412e37e46f18bfbbf7fc5dd2f345b3b9a73eb74939ef"
 
   # Uses Linux header file: https://github.com/Homebrew/homebrew-science/pull/2373
   depends_on LinuxRequirement
