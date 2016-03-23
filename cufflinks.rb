@@ -10,11 +10,11 @@ class Cufflinks < Formula
     sha256 "5929896c71cdb5866f6cfb8da6d2c6b8a43ce4d4833529484aedef79a4a58ed3" => :mavericks
   end
 
-  if OS.mac? && MacOS.version == :mavericks
-    depends_on "homebrew/versions/boost155"
-  else
-    depends_on "boost"
-  end
+  #if OS.mac? && MacOS.version == :mavericks
+  #  depends_on "homebrew/versions/boost155"
+  #else
+  depends_on "boost"
+  #end
 
   depends_on "samtools-0.1" => :build
   depends_on "eigen"
